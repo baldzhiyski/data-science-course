@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="intro to arithmetic">
-      <change afterPath="$PROJECT_DIR$/numpy/broadcasting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="broadcasting examples">
+      <change afterPath="$PROJECT_DIR$/numpy/aggregate-functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760102311671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="broadcasting examples">
+      <option name="closed" value="true" />
+      <created>1760103469302</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760103469302</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -98,6 +105,7 @@
     <MESSAGE value="simple array in numpy" />
     <MESSAGE value="intro to multy dimensional arrays" />
     <MESSAGE value="intro to arithmetic" />
-    <option name="LAST_COMMIT_MESSAGE" value="intro to arithmetic" />
+    <MESSAGE value="broadcasting examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="broadcasting examples" />
   </component>
 </project>
