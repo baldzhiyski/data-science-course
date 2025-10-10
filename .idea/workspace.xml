@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="filtering exercise">
-      <change afterPath="$PROJECT_DIR$/numpy/quizz/100_Numpy_exercises.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy/quizz/generators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy/quizz/initialise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy/quizz/source/exercises100.ktx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy/quizz/source/headers.ktx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy/random-numbers.py" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="quizz init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy/quizz/100_Numpy_exercises.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpy/quizz/100_Numpy_exercises.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "baldzhiyski"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/baldzhiyski/data-science-course.git",
+    "accountId": "a11e50ea-865b-4e8e-9799-3f1bf11c60ee"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
@@ -131,7 +137,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760105447906</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="using random technique">
+      <option name="closed" value="true" />
+      <created>1760106310539</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760106310539</updated>
+    </task>
+    <task id="LOCAL-00009" summary="quizz init">
+      <option name="closed" value="true" />
+      <created>1760106352041</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760106352041</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,6 +164,8 @@
     <MESSAGE value="broadcasting examples" />
     <MESSAGE value="aggregate functions" />
     <MESSAGE value="filtering exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="filtering exercise" />
+    <MESSAGE value="using random technique" />
+    <MESSAGE value="quizz init" />
+    <option name="LAST_COMMIT_MESSAGE" value="quizz init" />
   </component>
 </project>
