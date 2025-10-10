@@ -3,4 +3,6 @@ name = "data-science"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "numpy>=2.3.3",
+]
