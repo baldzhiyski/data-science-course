@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="quizz init">
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="Adding first section of the exercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/numpy/quizz/100_Numpy_exercises.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpy/quizz/100_Numpy_exercises.ipynb" afterDir="false" />
     </list>
@@ -153,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760106352041</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding first section of the exercises">
+      <option name="closed" value="true" />
+      <created>1760107585580</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760107585580</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,6 +174,7 @@
     <MESSAGE value="filtering exercise" />
     <MESSAGE value="using random technique" />
     <MESSAGE value="quizz init" />
-    <option name="LAST_COMMIT_MESSAGE" value="quizz init" />
+    <MESSAGE value="Adding first section of the exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding first section of the exercises" />
   </component>
 </project>
