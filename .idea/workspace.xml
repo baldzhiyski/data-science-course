@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="remove file">
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="columns manipulations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pandas/tutorial/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas/tutorial/main.ipynb" afterDir="false" />
     </list>
@@ -203,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760185829444</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="columns manipulations">
+      <option name="closed" value="true" />
+      <created>1760187352790</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1760187352790</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,6 +230,7 @@
     <MESSAGE value="adding starters for pandas  course" />
     <MESSAGE value="first examples with pandas" />
     <MESSAGE value="remove file" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove file" />
+    <MESSAGE value="columns manipulations" />
+    <option name="LAST_COMMIT_MESSAGE" value="columns manipulations" />
   </component>
 </project>
