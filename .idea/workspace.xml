@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="finishing the quizz">
-      <change afterPath="$PROJECT_DIR$/pandas/tutorial.ipynb" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="adding starters for pandas  course">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandas/tutorial/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas/tutorial/main.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,7 @@
       <recent name="C:\GitHub\data-science\numpy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\data-science" />
       <recent name="C:\GitHub\data-science\numpy\quizz" />
     </key>
   </component>
@@ -177,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760177818531</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="adding starters for pandas  course">
+      <option name="closed" value="true" />
+      <created>1760178096736</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1760178096736</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -193,6 +203,7 @@
     <MESSAGE value="Adding first section of the exercises" />
     <MESSAGE value="some more exercises done" />
     <MESSAGE value="finishing the quizz" />
-    <option name="LAST_COMMIT_MESSAGE" value="finishing the quizz" />
+    <MESSAGE value="adding starters for pandas  course" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding starters for pandas  course" />
   </component>
 </project>
