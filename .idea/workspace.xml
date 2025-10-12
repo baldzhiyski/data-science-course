@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="basic intro to matplotlib plot customization">
-      <change afterPath="$PROJECT_DIR$/matplotlib/main.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="some labeling to the plot">
+      <change beforePath="$PROJECT_DIR$/matplotlib/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/main.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +260,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760266122392</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="basic intro to matplotlib plot customization">
+      <option name="closed" value="true" />
+      <created>1760268397286</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1760268397286</updated>
+    </task>
+    <task id="LOCAL-00024" summary="some labeling to the plot">
+      <option name="closed" value="true" />
+      <created>1760268649964</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1760268649964</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,6 +303,7 @@
     <MESSAGE value="more stuff" />
     <MESSAGE value="Some data cleaning example" />
     <MESSAGE value="basic intro to matplotlib plot customization" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic intro to matplotlib plot customization" />
+    <MESSAGE value="some labeling to the plot" />
+    <option name="LAST_COMMIT_MESSAGE" value="some labeling to the plot" />
   </component>
 </project>
