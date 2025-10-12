@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="intro to grids">
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="basic bar charts">
       <change beforePath="$PROJECT_DIR$/matplotlib/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/main.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -284,11 +284,18 @@
       <option name="project" value="LOCAL" />
       <updated>1760268964869</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="basic bar charts">
+      <option name="closed" value="true" />
+      <created>1760269239109</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1760269239109</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
     <MESSAGE value="simple array in numpy" />
     <MESSAGE value="intro to multy dimensional arrays" />
     <MESSAGE value="intro to arithmetic" />
@@ -313,6 +320,7 @@
     <MESSAGE value="basic intro to matplotlib plot customization" />
     <MESSAGE value="some labeling to the plot" />
     <MESSAGE value="intro to grids" />
-    <option name="LAST_COMMIT_MESSAGE" value="intro to grids" />
+    <MESSAGE value="basic bar charts" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic bar charts" />
   </component>
 </project>
