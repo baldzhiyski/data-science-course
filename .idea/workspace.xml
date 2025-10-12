@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="more stuff">
-      <change afterPath="$PROJECT_DIR$/pandas/tutorial/data/employees_dirty.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas/tutorial/data_cleaning_examples.ipynb" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="basic intro to matplotlib plot customization">
+      <change afterPath="$PROJECT_DIR$/matplotlib/main.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pandas/tutorial/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pandas/tutorial/main.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760263496837</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Some data cleaning example">
+      <option name="closed" value="true" />
+      <created>1760266122392</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1760266122392</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -280,6 +287,8 @@
     <MESSAGE value="Some aggs functions" />
     <MESSAGE value="Some advanced func" />
     <MESSAGE value="more stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="more stuff" />
+    <MESSAGE value="Some data cleaning example" />
+    <MESSAGE value="basic intro to matplotlib plot customization" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic intro to matplotlib plot customization" />
   </component>
 </project>
