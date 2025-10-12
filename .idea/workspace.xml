@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="basic bar charts">
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="basic pie charts">
+      <change afterPath="$PROJECT_DIR$/matplotlib/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matplotlib/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/main.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "baldzhiyski"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;baldzhiyski&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/baldzhiyski/data-science-course.git",
-    "accountId": "a11e50ea-865b-4e8e-9799-3f1bf11c60ee"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/baldzhiyski/data-science-course.git&quot;,
+    &quot;accountId&quot;: &quot;a11e50ea-865b-4e8e-9799-3f1bf11c60ee&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="33rnpk6moatoqYRrdIMqX2pTAOw" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,7 +55,8 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/GitHub/data-science/pandas/tutorial"
+    "last_opened_file_path": "C:/GitHub/data-science/pandas/tutorial",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.CSV/TSV/PSV"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -292,11 +295,18 @@
       <option name="project" value="LOCAL" />
       <updated>1760269239109</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="basic pie charts">
+      <option name="closed" value="true" />
+      <created>1760269541752</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1760269541752</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="simple array in numpy" />
     <MESSAGE value="intro to multy dimensional arrays" />
     <MESSAGE value="intro to arithmetic" />
     <MESSAGE value="broadcasting examples" />
@@ -321,6 +331,7 @@
     <MESSAGE value="some labeling to the plot" />
     <MESSAGE value="intro to grids" />
     <MESSAGE value="basic bar charts" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic bar charts" />
+    <MESSAGE value="basic pie charts" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic pie charts" />
   </component>
 </project>
