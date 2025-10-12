@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="basic pie charts">
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="scatter">
       <change afterPath="$PROJECT_DIR$/matplotlib/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/matplotlib/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/main.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -303,11 +302,18 @@
       <option name="project" value="LOCAL" />
       <updated>1760269541752</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="scatter">
+      <option name="closed" value="true" />
+      <created>1760270137827</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1760270137827</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="intro to multy dimensional arrays" />
     <MESSAGE value="intro to arithmetic" />
     <MESSAGE value="broadcasting examples" />
     <MESSAGE value="aggregate functions" />
@@ -332,6 +338,7 @@
     <MESSAGE value="intro to grids" />
     <MESSAGE value="basic bar charts" />
     <MESSAGE value="basic pie charts" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic pie charts" />
+    <MESSAGE value="scatter" />
+    <option name="LAST_COMMIT_MESSAGE" value="scatter" />
   </component>
 </project>
