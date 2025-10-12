@@ -1,0 +1,9 @@
+emp_id,name,first_name,last_name,email,phone,hire_date,salary,department,country,age,manager_id,notes,salary_eur,email_valid,phone_clean,tenure_years,display_name,dept_Engineering,dept_Hr,dept_Human Resources,dept_Sales
+101,,Anna,Schmidt,anna.schmidt@example.com,0301234567,2022-10-01,€46.000,Sales,DE,29.0,9001,duplicate row with newer salary,46000.0,True,+49301234567,3.03,Anna Schmidt,0,0,0,1
+102,"Müller, Peter",Peter,Müller,peter.mueller@example.com,030-555-9876,,"€55.500,00",Sales,DE,35.0,9001,überdurchschnittlich,55500.0,True,+49305559876,,Peter Müller,0,0,0,1
+103,"Garcia , Maria",Maria,Garcia,maria.garcia(at)example.com,+49-40-222-3333,,"60,000 EUR",Engineering,DE,41.0,9002,needs coaching,60.0,False,+49402223333,,Maria Garcia,1,0,0,0
+104,,John,Doe,john.doe@example.com,49 89 444 555,,$75000,Engineering,DE,12.75,9002,late on Mondays,75000.0,True,+4989444555,,John Doe,1,0,0,0
+105,Alice Wong,Alice,Wong,alice.wong@example,040 333 222,,"£65,000",Hr,DE,50.75,9003,PROMOTED,65.0,False,+4940333222,,Alice Wong,0,1,0,0
+106,"O'Connor, Sean",Sean,O'Connor,sean.o'connor@example.com,+49 (30) 111-2222,,EUR 58.000,Human Resources,,32.0,9003,,58000.0,True,+49301112222,,Sean O'Connor,0,0,1,0
+107,,Léa,Dubois,lea.dubois@example.com,030 111 222 333,2024-05-04,58000,Engineering,DE,27.0,9002,,58000.0,True,+4930111222333,1.44,Léa Dubois,1,0,0,0
+108,"Rossi,Marco",Marco,Rossi,marco.rossi@example.com,089/555-111,2022-01-12,59000€,Engineering,DE,27.0,9002,trainee,59000.0,True,+4989555111,3.75,Marco Rossi,1,0,0,0

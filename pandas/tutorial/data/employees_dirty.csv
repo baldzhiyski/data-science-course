@@ -1,0 +1,10 @@
+emp_id,name,first_name,last_name,email,phone,hire_date,salary,department,country,age,manager_id,notes
+101,,  anna ,SCHMIDT,Anna.Schmidt@Example.com , +49 (30) 123-4567 ,2022-01-10,"€45,000", sales , Germany ,29.0,9001.0,  good performer  
+102,"Müller,  Peter",,,peter.mueller@example.COM,030-555-9876,10/12/2021,"€55.500,00",SALES,de,35.0,9001.0,überdurchschnittlich
+103,"Garcia  , maria",,, maria.garcia(at)example.com ,+49-40-222-3333,2021/02/15,"  60,000 EUR",engineering,DEU,41.0,9002.0,  needs   coaching 
+104,,JoHN,doe ,john.doe@example.com,49 89 444 555,15-03-2020,$75000, Engineering ,de ,5.0,,  late on Mondays  
+105,ALICE   WONG,,,alice.wong@example,040 333 222,2020.07.01,"£65,000", hr,GER,120.0,9003.0,PROMOTED
+106,"  O'Connor,  sean",,, sean.o'connor@example.com,+49 (30) 111-2222,2023-02-30,EUR 58.000,Human Resources,,32.0,9003.0,  
+107,,Léa  ,  Dubois,LEA.DUBOIS@EXAMPLE.com, 030 111 222 333 ,2024-04-05,58000,Engineering , germany,,9002.0,
+108,"  Rossi,Marco ",,,marco.rossi@example.com ,089/555-111,2022-12-01,59000€,Engineering,De,27.0,9002.0,  trainee  
+101,,Anna,Schmidt, anna.schmidt@example.com,0301234567,2022-01-10,€46.000,Sales,DE,29.0,9001.0,duplicate row with newer salary
