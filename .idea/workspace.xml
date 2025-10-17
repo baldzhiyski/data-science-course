@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="basic operations">
-      <change beforePath="$PROJECT_DIR$/freeCodeCamp-course/pandas-intro/operations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/freeCodeCamp-course/pandas-intro/operations.ipynb" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="solution to the first exercise">
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/project-1/web-scraping-with-pandas-demo.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +55,17 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/GitHub/data-science/freeCodeCamp-course/pandas-intro",
+    "last_opened_file_path": "C:/GitHub/data-science/freeCodeCamp-course/pandas-intro/exercise",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\data-science\freeCodeCamp-course\pandas-intro\exercise" />
       <recent name="C:\GitHub\data-science\freeCodeCamp-course\pandas-intro" />
       <recent name="C:\GitHub\data-science\uni-course\spotify-data-project\data" />
       <recent name="C:\GitHub\data-science\matplotlib" />
       <recent name="C:\GitHub\data-science\pandas\tutorial" />
-      <recent name="C:\GitHub\data-science\pandas\tutorial\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHub\data-science\uni-course\spotify-data-project\notebooks" />
@@ -412,12 +413,26 @@
       <option name="project" value="LOCAL" />
       <updated>1760711884315</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="basic operations in pandas">
+      <option name="closed" value="true" />
+      <created>1760712471133</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1760712471133</updated>
+    </task>
+    <task id="LOCAL-00039" summary="solution to the first exercise">
+      <option name="closed" value="true" />
+      <created>1760713319133</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1760713319133</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding starters for pandas  course" />
-    <MESSAGE value="first examples with pandas" />
     <MESSAGE value="remove file" />
     <MESSAGE value="columns manipulations" />
     <MESSAGE value="basic merging and concatenating" />
@@ -441,7 +456,9 @@
     <MESSAGE value="One column selection syntaxes" />
     <MESSAGE value="selection of more columns" />
     <MESSAGE value="basic operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic operations" />
+    <MESSAGE value="basic operations in pandas" />
+    <MESSAGE value="solution to the first exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution to the first exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
