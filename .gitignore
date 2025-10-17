@@ -3,3 +3,8 @@
 uv.lock
 
 .idea
+
+# Ignore everything inside exercises
+uni-course/exercises/
+
+uni-course/spotify-data-project/data

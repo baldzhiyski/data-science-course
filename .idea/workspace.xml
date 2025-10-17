@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="intro to subplots">
-      <change afterPath="$PROJECT_DIR$/matplotlib/data.csv" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="exercises">
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/data/spotify.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/01_schema_and_eda.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/02_cleaning_and_rules.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/03_target_and_features.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/04_models_and_baselines.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/05_tuning_and_robustness.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/06_interpretation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/07_report_figures.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matplotlib/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib/main.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,19 +63,20 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/GitHub/data-science/matplotlib",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.CSV/TSV/PSV"
+    "last_opened_file_path": "C:/GitHub/data-science/uni-course/spotify-data-project/data",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\data-science\uni-course\spotify-data-project\data" />
+      <recent name="C:\GitHub\data-science\matplotlib" />
       <recent name="C:\GitHub\data-science\pandas\tutorial" />
       <recent name="C:\GitHub\data-science\pandas\tutorial\data" />
       <recent name="C:\GitHub\data-science\numpy\quizz\source" />
-      <recent name="C:\GitHub\data-science\numpy\quizz" />
-      <recent name="C:\GitHub\data-science\numpy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\data-science\uni-course\spotify-data-project\notebooks" />
       <recent name="C:\GitHub\data-science" />
       <recent name="C:\GitHub\data-science\numpy\quizz" />
     </key>
@@ -327,11 +336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1760270780340</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="exercises">
+      <option name="closed" value="true" />
+      <created>1760271677847</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1760271677847</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aggregate functions" />
     <MESSAGE value="filtering exercise" />
     <MESSAGE value="using random technique" />
     <MESSAGE value="quizz init" />
@@ -356,6 +372,7 @@
     <MESSAGE value="scatter" />
     <MESSAGE value="intro to histogramms" />
     <MESSAGE value="intro to subplots" />
-    <option name="LAST_COMMIT_MESSAGE" value="intro to subplots" />
+    <MESSAGE value="exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercises" />
   </component>
 </project>
