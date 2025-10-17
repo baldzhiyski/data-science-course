@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="data frames intro">
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/pandas-intro/basic-func-methods.ipynb" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="selection of more columns">
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/pandas-intro/operations.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -380,13 +381,34 @@
       <option name="project" value="LOCAL" />
       <updated>1760707767240</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Basic funcs,methods and att">
+      <option name="closed" value="true" />
+      <created>1760710132844</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1760710132844</updated>
+    </task>
+    <task id="LOCAL-00035" summary="One column selection syntaxes">
+      <option name="closed" value="true" />
+      <created>1760710352482</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1760710352482</updated>
+    </task>
+    <task id="LOCAL-00036" summary="selection of more columns">
+      <option name="closed" value="true" />
+      <created>1760710686042</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1760710686042</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="quizz init" />
-    <MESSAGE value="Adding first section of the exercises" />
-    <MESSAGE value="some more exercises done" />
     <MESSAGE value="finishing the quizz" />
     <MESSAGE value="adding starters for pandas  course" />
     <MESSAGE value="first examples with pandas" />
@@ -409,6 +431,20 @@
     <MESSAGE value="exercises" />
     <MESSAGE value="Adding uni-project structure" />
     <MESSAGE value="data frames intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="data frames intro" />
+    <MESSAGE value="Basic funcs,methods and att" />
+    <MESSAGE value="One column selection syntaxes" />
+    <MESSAGE value="selection of more columns" />
+    <option name="LAST_COMMIT_MESSAGE" value="selection of more columns" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/freeCodeCamp-course/pandas-intro/data-frame-creation.ipynb</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
