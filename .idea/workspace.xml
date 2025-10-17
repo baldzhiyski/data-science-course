@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="selection of more columns">
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/pandas-intro/operations.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="basic operations">
+      <change beforePath="$PROJECT_DIR$/freeCodeCamp-course/pandas-intro/operations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/freeCodeCamp-course/pandas-intro/operations.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,11 +404,18 @@
       <option name="project" value="LOCAL" />
       <updated>1760710686042</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="basic operations">
+      <option name="closed" value="true" />
+      <created>1760711884315</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1760711884315</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finishing the quizz" />
     <MESSAGE value="adding starters for pandas  course" />
     <MESSAGE value="first examples with pandas" />
     <MESSAGE value="remove file" />
@@ -434,7 +440,8 @@
     <MESSAGE value="Basic funcs,methods and att" />
     <MESSAGE value="One column selection syntaxes" />
     <MESSAGE value="selection of more columns" />
-    <option name="LAST_COMMIT_MESSAGE" value="selection of more columns" />
+    <MESSAGE value="basic operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic operations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
