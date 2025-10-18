@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="solution to the first exercise">
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/project-1/web-scraping-with-pandas-demo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/filtering-data/filtering-data.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/filtering-data/laptop_price.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,17 +56,17 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/GitHub/data-science/freeCodeCamp-course/pandas-intro/exercise",
+    "last_opened_file_path": "C:/GitHub/data-science/freeCodeCamp-course/filtering-data",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\data-science\freeCodeCamp-course\filtering-data" />
       <recent name="C:\GitHub\data-science\freeCodeCamp-course\pandas-intro\exercise" />
       <recent name="C:\GitHub\data-science\freeCodeCamp-course\pandas-intro" />
       <recent name="C:\GitHub\data-science\uni-course\spotify-data-project\data" />
       <recent name="C:\GitHub\data-science\matplotlib" />
-      <recent name="C:\GitHub\data-science\pandas\tutorial" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHub\data-science\uni-course\spotify-data-project\notebooks" />
