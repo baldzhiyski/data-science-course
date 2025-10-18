@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="solution to the first exercise">
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/filtering-data/filtering-data.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/filtering-data/laptop_price.csv" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="basic filtering operations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freeCodeCamp-course/filtering-data/filtering-data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/freeCodeCamp-course/filtering-data/filtering-data.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,12 +429,26 @@
       <option name="project" value="LOCAL" />
       <updated>1760713319133</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="basic filtering">
+      <option name="closed" value="true" />
+      <created>1760777562849</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1760777562849</updated>
+    </task>
+    <task id="LOCAL-00041" summary="basic filtering operations">
+      <option name="closed" value="true" />
+      <created>1760785502610</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1760785502610</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove file" />
-    <MESSAGE value="columns manipulations" />
     <MESSAGE value="basic merging and concatenating" />
     <MESSAGE value="handling null values" />
     <MESSAGE value="Some aggs functions" />
@@ -459,7 +472,9 @@
     <MESSAGE value="basic operations" />
     <MESSAGE value="basic operations in pandas" />
     <MESSAGE value="solution to the first exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution to the first exercise" />
+    <MESSAGE value="basic filtering" />
+    <MESSAGE value="basic filtering operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic filtering operations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
