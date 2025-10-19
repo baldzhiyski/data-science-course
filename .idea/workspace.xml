@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="basic filtering operations">
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="intro to data extraction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freeCodeCamp-course/filtering-data/filtering-data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/freeCodeCamp-course/filtering-data/filtering-data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freeCodeCamp-course/data-extraction/data-extraction-intro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/freeCodeCamp-course/data-extraction/data-extraction-intro.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +55,17 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/GitHub/data-science/freeCodeCamp-course/filtering-data",
+    "last_opened_file_path": "C:/GitHub/data-science/freeCodeCamp-course/data-extraction",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\data-science\freeCodeCamp-course\data-extraction" />
       <recent name="C:\GitHub\data-science\freeCodeCamp-course\filtering-data" />
       <recent name="C:\GitHub\data-science\freeCodeCamp-course\pandas-intro\exercise" />
       <recent name="C:\GitHub\data-science\freeCodeCamp-course\pandas-intro" />
       <recent name="C:\GitHub\data-science\uni-course\spotify-data-project\data" />
-      <recent name="C:\GitHub\data-science\matplotlib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHub\data-science\uni-course\spotify-data-project\notebooks" />
@@ -445,12 +445,26 @@
       <option name="project" value="LOCAL" />
       <updated>1760785502610</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="final operations of the filtering section">
+      <option name="closed" value="true" />
+      <created>1760786034027</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1760786034027</updated>
+    </task>
+    <task id="LOCAL-00043" summary="intro to data extraction">
+      <option name="closed" value="true" />
+      <created>1760864679089</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1760864679089</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="basic merging and concatenating" />
-    <MESSAGE value="handling null values" />
     <MESSAGE value="Some aggs functions" />
     <MESSAGE value="Some advanced func" />
     <MESSAGE value="more stuff" />
@@ -474,7 +488,9 @@
     <MESSAGE value="solution to the first exercise" />
     <MESSAGE value="basic filtering" />
     <MESSAGE value="basic filtering operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic filtering operations" />
+    <MESSAGE value="final operations of the filtering section" />
+    <MESSAGE value="intro to data extraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="intro to data extraction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
