@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="add dep">
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/IMDb movies.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/IMDb ratings.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/merging-concat-operations.ipynb" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="exploring the data sets">
       <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/other/books.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/other/ratings.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/other/tags.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/merging-concat-operations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/merging-concat-operations.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -507,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1760876456496</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="exploring the data sets">
+      <option name="closed" value="true" />
+      <created>1761486013593</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1761486013593</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some labeling to the plot" />
     <MESSAGE value="intro to grids" />
     <MESSAGE value="basic bar charts" />
     <MESSAGE value="basic pie charts" />
@@ -536,7 +540,8 @@
     <MESSAGE value="pivot tables" />
     <MESSAGE value="second project of the course - data visualisation with pandas" />
     <MESSAGE value="add dep" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dep" />
+    <MESSAGE value="exploring the data sets" />
+    <option name="LAST_COMMIT_MESSAGE" value="exploring the data sets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
