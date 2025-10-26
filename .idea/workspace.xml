@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="exploring the data sets">
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="intro to concatenating">
       <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/other/books.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/other/ratings.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/other/tags.csv" afterDir="false" />
@@ -119,14 +119,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760084243851</updated>
-    </task>
-    <task id="LOCAL-00001" summary="init">
-      <option name="closed" value="true" />
-      <created>1760084657493</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1760084657493</updated>
     </task>
     <task id="LOCAL-00002" summary="simple array in numpy">
       <option name="closed" value="true" />
@@ -512,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1761486013593</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="intro to concatenating">
+      <option name="closed" value="true" />
+      <created>1761486659089</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1761486659090</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="intro to grids" />
     <MESSAGE value="basic bar charts" />
     <MESSAGE value="basic pie charts" />
     <MESSAGE value="scatter" />
@@ -541,7 +540,8 @@
     <MESSAGE value="second project of the course - data visualisation with pandas" />
     <MESSAGE value="add dep" />
     <MESSAGE value="exploring the data sets" />
-    <option name="LAST_COMMIT_MESSAGE" value="exploring the data sets" />
+    <MESSAGE value="intro to concatenating" />
+    <option name="LAST_COMMIT_MESSAGE" value="intro to concatenating" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
