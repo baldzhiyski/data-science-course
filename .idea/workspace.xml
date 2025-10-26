@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="add dep">
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/aggregations/Car_sales.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/aggregations/group-by-agg-func.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/aggregations/vgsales.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/IMDb movies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/IMDb ratings.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/merging-concat-operations.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/other/books.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/other/ratings.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/other/tags.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,17 +60,17 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/GitHub/data-science/freeCodeCamp-course/aggregations",
+    "last_opened_file_path": "C:/GitHub/data-science/freeCodeCamp-course/merging-concat",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\data-science\freeCodeCamp-course\merging-concat" />
+      <recent name="C:\GitHub\data-science\freeCodeCamp-course\merging-concat\other" />
       <recent name="C:\GitHub\data-science\freeCodeCamp-course\aggregations" />
       <recent name="C:\GitHub\data-science\freeCodeCamp-course\project-2" />
       <recent name="C:\GitHub\data-science\freeCodeCamp-course\project-1" />
-      <recent name="C:\GitHub\data-science\freeCodeCamp-course\pivot-table" />
-      <recent name="C:\GitHub\data-science\freeCodeCamp-course\data-extraction" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHub\data-science\freeCodeCamp-course\pivot-table" />
