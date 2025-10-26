@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="intro to concatenating">
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/other/books.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/other/ratings.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/other/tags.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/merging-concat-operations.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/freeCodeCamp-course/merging-concat/merging-concat-operations.ipynb" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="Joins">
+      <change afterPath="$PROJECT_DIR$/freeCodeCamp-course/regEx/regEx.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,14 +116,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760084243851</updated>
-    </task>
-    <task id="LOCAL-00002" summary="simple array in numpy">
-      <option name="closed" value="true" />
-      <created>1760099852294</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1760099852294</updated>
     </task>
     <task id="LOCAL-00003" summary="intro to multy dimensional arrays">
       <option name="closed" value="true" />
@@ -512,11 +501,18 @@
       <option name="project" value="LOCAL" />
       <updated>1761486659090</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Joins">
+      <option name="closed" value="true" />
+      <created>1761488283327</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1761488283327</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="basic bar charts" />
     <MESSAGE value="basic pie charts" />
     <MESSAGE value="scatter" />
     <MESSAGE value="intro to histogramms" />
@@ -541,7 +537,8 @@
     <MESSAGE value="add dep" />
     <MESSAGE value="exploring the data sets" />
     <MESSAGE value="intro to concatenating" />
-    <option name="LAST_COMMIT_MESSAGE" value="intro to concatenating" />
+    <MESSAGE value="Joins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Joins" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
