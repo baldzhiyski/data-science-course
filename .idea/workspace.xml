@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="encoding the categorical data">
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="training and evaluation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scikit-learn-course/logistic-regression/logistic-regression-lesson.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scikit-learn-course/logistic-regression/logistic-regression-lesson.ipynb" afterDir="false" />
     </list>
@@ -118,14 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760084243851</updated>
-    </task>
-    <task id="LOCAL-00014" summary="first examples with pandas">
-      <option name="closed" value="true" />
-      <created>1760185718833</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1760185718833</updated>
     </task>
     <task id="LOCAL-00015" summary="remove file">
       <option name="closed" value="true" />
@@ -511,11 +503,18 @@
       <option name="project" value="LOCAL" />
       <updated>1762093532052</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="training and evaluation">
+      <option name="closed" value="true" />
+      <created>1762094474850</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1762094474852</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="basic operations in pandas" />
     <MESSAGE value="solution to the first exercise" />
     <MESSAGE value="basic filtering" />
     <MESSAGE value="basic filtering operations" />
@@ -540,7 +539,8 @@
     <MESSAGE value="filling the missing numerical data" />
     <MESSAGE value="Scaling the features to small range of values" />
     <MESSAGE value="encoding the categorical data" />
-    <option name="LAST_COMMIT_MESSAGE" value="encoding the categorical data" />
+    <MESSAGE value="training and evaluation" />
+    <option name="LAST_COMMIT_MESSAGE" value="training and evaluation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
