@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/scikit-learn-course/linear-regression/linear-regression-scikit-learn.ipynb" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="Adding smoker code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scikit-learn-course/linear-regression/linear-regression-scikit-learn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scikit-learn-course/linear-regression/linear-regression-scikit-learn.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,14 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760084243851</updated>
-    </task>
-    <task id="LOCAL-00008" summary="using random technique">
-      <option name="closed" value="true" />
-      <created>1760106310539</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1760106310539</updated>
     </task>
     <task id="LOCAL-00009" summary="quizz init">
       <option name="closed" value="true" />
@@ -511,11 +503,18 @@
       <option name="project" value="LOCAL" />
       <updated>1761548189492</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="First Lesson : Linear Regression">
+      <option name="closed" value="true" />
+      <created>1761921433975</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1761921433976</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding uni-project structure" />
     <MESSAGE value="data frames intro" />
     <MESSAGE value="Basic funcs,methods and att" />
     <MESSAGE value="One column selection syntaxes" />
@@ -540,7 +539,8 @@
     <MESSAGE value="simple linear regression" />
     <MESSAGE value="multiple linear regression" />
     <MESSAGE value="multiple linear regression with sklearn" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiple linear regression with sklearn" />
+    <MESSAGE value="First Lesson : Linear Regression" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Lesson : Linear Regression" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
