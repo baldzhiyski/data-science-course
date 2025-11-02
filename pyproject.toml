@@ -13,6 +13,7 @@ dependencies = [
     "nltk>=3.9.2",
     "notebook>=7.4.7",
     "numpy>=2.3.3",
+    "opendatasets>=0.1.22",
     "openpyxl>=3.1.5",
     "pandas>=2.3.3",
     "plotly>=6.3.1",
