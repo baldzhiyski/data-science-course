@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="training and evaluation">
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="using joblib for model saving">
+      <change afterPath="$PROJECT_DIR$/scikit-learn-course/logistic-regression/breast-cancer-prediction-model/breast-cancer-pred-model.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scikit-learn-course/logistic-regression/logistic-regression-lesson.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scikit-learn-course/logistic-regression/logistic-regression-lesson.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,22 +119,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760084243851</updated>
-    </task>
-    <task id="LOCAL-00015" summary="remove file">
-      <option name="closed" value="true" />
-      <created>1760185829444</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1760185829444</updated>
-    </task>
-    <task id="LOCAL-00016" summary="columns manipulations">
-      <option name="closed" value="true" />
-      <created>1760187352790</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1760187352790</updated>
     </task>
     <task id="LOCAL-00017" summary="basic merging and concatenating">
       <option name="closed" value="true" />
@@ -511,12 +496,26 @@
       <option name="project" value="LOCAL" />
       <updated>1762094474852</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="single input prediction">
+      <option name="closed" value="true" />
+      <created>1762095914351</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1762095914351</updated>
+    </task>
+    <task id="LOCAL-00065" summary="using joblib for model saving">
+      <option name="closed" value="true" />
+      <created>1762096089816</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1762096089816</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solution to the first exercise" />
-    <MESSAGE value="basic filtering" />
     <MESSAGE value="basic filtering operations" />
     <MESSAGE value="final operations of the filtering section" />
     <MESSAGE value="intro to data extraction" />
@@ -540,7 +539,9 @@
     <MESSAGE value="Scaling the features to small range of values" />
     <MESSAGE value="encoding the categorical data" />
     <MESSAGE value="training and evaluation" />
-    <option name="LAST_COMMIT_MESSAGE" value="training and evaluation" />
+    <MESSAGE value="single input prediction" />
+    <MESSAGE value="using joblib for model saving" />
+    <option name="LAST_COMMIT_MESSAGE" value="using joblib for model saving" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
