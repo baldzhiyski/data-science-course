@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="filling the missing numerical data">
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="Scaling the features to small range of values">
       <change beforePath="$PROJECT_DIR$/scikit-learn-course/logistic-regression/logistic-regression-lesson.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scikit-learn-course/logistic-regression/logistic-regression-lesson.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,14 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760084243851</updated>
-    </task>
-    <task id="LOCAL-00012" summary="finishing the quizz">
-      <option name="closed" value="true" />
-      <created>1760177818531</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1760177818531</updated>
     </task>
     <task id="LOCAL-00013" summary="adding starters for pandas  course">
       <option name="closed" value="true" />
@@ -510,11 +502,18 @@
       <option name="project" value="LOCAL" />
       <updated>1762092623443</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Scaling the features to small range of values">
+      <option name="closed" value="true" />
+      <created>1762092844913</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1762092844913</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="selection of more columns" />
     <MESSAGE value="basic operations" />
     <MESSAGE value="basic operations in pandas" />
     <MESSAGE value="solution to the first exercise" />
@@ -539,7 +538,8 @@
     <MESSAGE value="adding additional info" />
     <MESSAGE value="exploring the data" />
     <MESSAGE value="filling the missing numerical data" />
-    <option name="LAST_COMMIT_MESSAGE" value="filling the missing numerical data" />
+    <MESSAGE value="Scaling the features to small range of values" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scaling the features to small range of values" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
