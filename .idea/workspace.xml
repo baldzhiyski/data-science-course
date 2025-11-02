@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="adding additional info">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scikit-learn-course/logistic-regression/logistic-regression-lesson.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scikit-learn-course/logistic-regression/logistic-regression-lesson.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="exploring the data" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,14 +115,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760084243851</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Adding first section of the exercises">
-      <option name="closed" value="true" />
-      <created>1760107585580</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1760107585580</updated>
     </task>
     <task id="LOCAL-00011" summary="some more exercises done">
       <option name="closed" value="true" />
@@ -511,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1762088406509</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="exploring the data">
+      <option name="closed" value="true" />
+      <created>1762092442091</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1762092442091</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Basic funcs,methods and att" />
     <MESSAGE value="One column selection syntaxes" />
     <MESSAGE value="selection of more columns" />
     <MESSAGE value="basic operations" />
@@ -540,7 +536,8 @@
     <MESSAGE value="multiple linear regression with sklearn" />
     <MESSAGE value="First Lesson : Linear Regression" />
     <MESSAGE value="adding additional info" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding additional info" />
+    <MESSAGE value="exploring the data" />
+    <option name="LAST_COMMIT_MESSAGE" value="exploring the data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,11 +551,6 @@
           <url>file://$PROJECT_DIR$/scikit-learn-course/linear-regression/linear-regression-scikit-learn.ipynb</url>
           <line>1199</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/scikit-learn-course/logistic-regression/logistic-regression-lesson.ipynb</url>
-          <line>72</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
