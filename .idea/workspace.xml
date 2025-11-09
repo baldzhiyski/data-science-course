@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="Trends and artists influence">
-      <change afterPath="$PROJECT_DIR$/scikit-learn-course/desicion-trees-random-forest/decision-tree-forest.ipynb" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="Adding the data set for the new notebook">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scikit-learn-course/desicion-trees-random-forest/decision-tree-forest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scikit-learn-course/desicion-trees-random-forest/decision-tree-forest.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,14 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760084243851</updated>
-    </task>
-    <task id="LOCAL-00024" summary="some labeling to the plot">
-      <option name="closed" value="true" />
-      <created>1760268649964</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1760268649964</updated>
     </task>
     <task id="LOCAL-00025" summary="intro to grids">
       <option name="closed" value="true" />
@@ -511,11 +503,18 @@
       <option name="project" value="LOCAL" />
       <updated>1762686228314</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Adding the data set for the new notebook">
+      <option name="closed" value="true" />
+      <created>1762698370943</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1762698370943</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pivot tables" />
     <MESSAGE value="second project of the course - data visualisation with pandas" />
     <MESSAGE value="add dep" />
     <MESSAGE value="exploring the data sets" />
@@ -540,7 +539,8 @@
     <MESSAGE value="Missing values and integrity check" />
     <MESSAGE value="Fixing directory path and adding exporting genres table" />
     <MESSAGE value="Trends and artists influence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trends and artists influence" />
+    <MESSAGE value="Adding the data set for the new notebook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the data set for the new notebook" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
