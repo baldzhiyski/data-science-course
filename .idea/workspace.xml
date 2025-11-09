@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="breast cancer prediction exercise">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="feat(eda): complete data exploration steps 1.1–1.5 with markdown documentation and visual analysis">
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_albums.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_artists.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_audio_features.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_heatmap_albums.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_heatmap_artists.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_heatmap_audio_features.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_heatmap_tracks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_schema_overview/2025-11-09_09-05-24/erd_spotify" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/01_schema_and_eda.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/01_schema_and_eda.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,14 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760084243851</updated>
-    </task>
-    <task id="LOCAL-00018" summary="handling null values">
-      <option name="closed" value="true" />
-      <created>1760188510898</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1760188510898</updated>
     </task>
     <task id="LOCAL-00019" summary="Some aggs functions">
       <option name="closed" value="true" />
@@ -512,11 +512,18 @@
       <option name="project" value="LOCAL" />
       <updated>1762108416562</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="feat(eda): complete data exploration steps 1.1–1.5 with markdown documentation and visual analysis">
+      <option name="closed" value="true" />
+      <created>1762169247685</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1762169247686</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="final operations of the filtering section" />
     <MESSAGE value="intro to data extraction" />
     <MESSAGE value="some more functions for data extraction" />
     <MESSAGE value="adding the copy function" />
@@ -541,7 +548,8 @@
     <MESSAGE value="single input prediction" />
     <MESSAGE value="using joblib for model saving" />
     <MESSAGE value="breast cancer prediction exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="breast cancer prediction exercise" />
+    <MESSAGE value="feat(eda): complete data exploration steps 1.1–1.5 with markdown documentation and visual analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(eda): complete data exploration steps 1.1–1.5 with markdown documentation and visual analysis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

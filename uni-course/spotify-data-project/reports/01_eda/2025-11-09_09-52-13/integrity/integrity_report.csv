@@ -1,0 +1,9 @@
+table,check,status,value
+tracks,duplicates_all_cols,ok,0
+audio_features,duplicates_all_cols,ok,0
+artists,duplicates_all_cols,ok,0
+albums,duplicates_all_cols,ok,0
+r_track_artist,fk(track_id->id),warn,289762
+r_track_artist,fk(artist_id->id),warn,271210
+r_albums_tracks,fk(album_id->id),warn,293826
+r_albums_tracks,fk(track_id->id),warn,289796

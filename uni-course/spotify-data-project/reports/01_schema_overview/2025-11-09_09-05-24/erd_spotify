@@ -1,0 +1,22 @@
+digraph spotify_erd {
+	bgcolor=white rankdir=LR
+	node [fontname=Helvetica fontsize=10 shape=record]
+	albums [label="{ albums | id : \lname : \lalbum_group : \lalbum_type : \lrelease_date : \lpopularity : \l }"]
+	artists [label="{ artists | name : \lid : \lpopularity : \lfollowers : \l }"]
+	audio_features [label="{ audio_features | id : \lacousticness : \lanalysis_url : \ldanceability : \lduration : \lenergy : \linstrumentalness : \lkey : \lliveness : \lloudness : \lmode : \lspeechiness : \ltempo : \ltime_signature : \lvalence : \l }"]
+	genres [label="{ genres | id : \l }"]
+	r_albums_artists [label="{ r_albums_artists | album_id : \lartist_id : \l }"]
+	r_albums_tracks [label="{ r_albums_tracks | album_id : \ltrack_id : \l }"]
+	r_artist_genre [label="{ r_artist_genre | genre_id : \lartist_id : \l }"]
+	r_track_artist [label="{ r_track_artist | track_id : \lartist_id : \l }"]
+	tracks [label="{ tracks | id : \ldisc_number : \lduration : \lexplicit : \laudio_feature_id : \lname : \lpreview_url : \ltrack_number : \lpopularity : \lis_playable : \l }"]
+	r_albums_artists -> albums [label="album_id → id" color="#999999" fontcolor="#999999" penwidth=1.2 style=dashed]
+	r_albums_artists -> artists [label="artist_id → id" color="#999999" fontcolor="#999999" penwidth=1.2 style=dashed]
+	r_albums_tracks -> albums [label="album_id → id" color="#999999" fontcolor="#999999" penwidth=1.2 style=dashed]
+	r_albums_tracks -> tracks [label="track_id → id" color="#999999" fontcolor="#999999" penwidth=1.2 style=dashed]
+	r_artist_genre -> genres [label="genre_id → id" color="#999999" fontcolor="#999999" penwidth=1.2 style=dashed]
+	r_artist_genre -> artists [label="artist_id → id" color="#999999" fontcolor="#999999" penwidth=1.2 style=dashed]
+	r_track_artist -> tracks [label="track_id → id" color="#999999" fontcolor="#999999" penwidth=1.2 style=dashed]
+	r_track_artist -> artists [label="artist_id → id" color="#999999" fontcolor="#999999" penwidth=1.2 style=dashed]
+	tracks -> audio_features [label="audio_feature_id → id" color="#999999" fontcolor="#999999" penwidth=1.2 style=dashed]
+}
