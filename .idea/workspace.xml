@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="feat(eda): complete data exploration steps 1.1–1.5 with markdown documentation and visual analysis">
-      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_albums.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_artists.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_audio_features.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_heatmap_albums.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_heatmap_artists.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_heatmap_audio_features.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_eda/2025-11-09_09-52-13/missing/missing_heatmap_tracks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/reports/01_schema_overview/2025-11-09_09-05-24/erd_spotify" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="Fixing directory path and adding exporting genres table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/01_schema_and_eda.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/01_schema_and_eda.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,22 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760084243851</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Some aggs functions">
-      <option name="closed" value="true" />
-      <created>1760189738858</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1760189738858</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Some advanced func">
-      <option name="closed" value="true" />
-      <created>1760262939900</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1760262939900</updated>
     </task>
     <task id="LOCAL-00021" summary="more stuff">
       <option name="closed" value="true" />
@@ -520,12 +495,26 @@
       <option name="project" value="LOCAL" />
       <updated>1762169247686</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Missing values and integrity check">
+      <option name="closed" value="true" />
+      <created>1762681598384</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1762681598384</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Fixing directory path and adding exporting genres table">
+      <option name="closed" value="true" />
+      <created>1762682688140</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1762682688140</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="intro to data extraction" />
-    <MESSAGE value="some more functions for data extraction" />
     <MESSAGE value="adding the copy function" />
     <MESSAGE value="pivot tables" />
     <MESSAGE value="second project of the course - data visualisation with pandas" />
@@ -549,7 +538,9 @@
     <MESSAGE value="using joblib for model saving" />
     <MESSAGE value="breast cancer prediction exercise" />
     <MESSAGE value="feat(eda): complete data exploration steps 1.1–1.5 with markdown documentation and visual analysis" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(eda): complete data exploration steps 1.1–1.5 with markdown documentation and visual analysis" />
+    <MESSAGE value="Missing values and integrity check" />
+    <MESSAGE value="Fixing directory path and adding exporting genres table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing directory path and adding exporting genres table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -568,6 +559,11 @@
           <url>file://$PROJECT_DIR$/scikit-learn-course/logistic-regression/logistic-regression-lesson.ipynb</url>
           <line>332</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/01_schema_and_eda.ipynb</url>
+          <line>1041</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
