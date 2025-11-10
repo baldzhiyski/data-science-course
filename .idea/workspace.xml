@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="Encoding and imputing">
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="Training with decision tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scikit-learn-course/desicion-trees-random-forest/decision-tree-forest.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scikit-learn-course/desicion-trees-random-forest/decision-tree-forest.ipynb" afterDir="false" />
     </list>
@@ -118,14 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760084243851</updated>
-    </task>
-    <task id="LOCAL-00027" summary="basic pie charts">
-      <option name="closed" value="true" />
-      <created>1760269541752</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1760269541752</updated>
     </task>
     <task id="LOCAL-00028" summary="scatter">
       <option name="closed" value="true" />
@@ -511,11 +503,18 @@
       <option name="project" value="LOCAL" />
       <updated>1762702167349</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Training with decision tree">
+      <option name="closed" value="true" />
+      <created>1762704670008</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1762704670008</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="exploring the data sets" />
     <MESSAGE value="intro to concatenating" />
     <MESSAGE value="Joins" />
     <MESSAGE value="simple regEx" />
@@ -540,7 +539,8 @@
     <MESSAGE value="Adding the data set for the new notebook" />
     <MESSAGE value="Some basic data exploration" />
     <MESSAGE value="Encoding and imputing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encoding and imputing" />
+    <MESSAGE value="Training with decision tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Training with decision tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
