@@ -1,6 +1,7 @@
 from __future__ import annotations
 from dataclasses import dataclass
 import numpy as np
+import pandas as pd
 from xgboost import XGBRanker
 from sklearn.metrics import ndcg_score
 from ..data.splits import cohort_time_split
@@ -59,12 +60,13 @@ Hinweise:
 - Relevanz-Binning wird verwendet, um kontinuierliche Perzentile in diskrete Relevanzstufen umzuwandeln.
 """
 
+
 @dataclass
 class RankerTrainer:
     seed: int = 42
     k_eval: int = 10
 
-    def fit_eval(self, ds_success_pct,params : dict | None = None):
+    def fit_eval(self, ds_success_pct, params: dict | None = None):
         y_rel = _to_relevance_0_31(ds_success_pct.y)
 
         idx_tr, idx_va, idx_te = cohort_time_split(ds_success_pct.meta, "cohort_ym", n_val=3, n_test=6)
@@ -72,7 +74,24 @@ class RankerTrainer:
         Xtr = ds_success_pct.X.iloc[idx_tr]
         Xva = ds_success_pct.X.iloc[idx_va]
         Xte = ds_success_pct.X.iloc[idx_te]
-        ytr, yva, yte = y_rel[idx_tr], y_rel[idx_va], y_rel[idx_te]
+
+        ytr = y_rel[idx_tr]
+        yva = y_rel[idx_va]
+        yte = y_rel[idx_te]
+
+        meta_tr = ds_success_pct.meta.iloc[idx_tr].copy()
+        meta_va = ds_success_pct.meta.iloc[idx_va].copy()
+        meta_te = ds_success_pct.meta.iloc[idx_te].copy()
+
+        # OPTIONAL (aber empfohlen): innerhalb jedes Splits nach cohort_ym sortieren,
+        # damit group sizes sicher zur Reihenfolge passen
+        def sort_by_cohort(X, y, meta):
+            order = meta["cohort_ym"].astype(str).argsort()
+            return X.iloc[order], y[order], meta.iloc[order].reset_index(drop=True)
+
+        Xtr, ytr, meta_tr = sort_by_cohort(Xtr, ytr, meta_tr)
+        Xva, yva, meta_va = sort_by_cohort(Xva, yva, meta_va)
+        Xte, yte, meta_te = sort_by_cohort(Xte, yte, meta_te)
 
         pre = TabularPreprocessor(model_kind="tree", text_cols=[])
         ct = pre.build(Xtr)
@@ -81,49 +100,74 @@ class RankerTrainer:
         Xva_p = ct.transform(Xva)
         Xte_p = ct.transform(Xte)
 
-        # groups = per cohort counts
         def group_sizes(meta):
+            # Reihenfolge passt jetzt, weil wir sortiert haben
             return meta.groupby("cohort_ym").size().astype(int).tolist()
 
-        gtr = group_sizes(ds_success_pct.meta[idx_tr])
-        gva = group_sizes(ds_success_pct.meta[idx_va])
-        gte = group_sizes(ds_success_pct.meta[idx_te])
+        gtr = group_sizes(meta_tr)
+        gva = group_sizes(meta_va)
 
-        if params:
-            model = XGBRanker(
-                objective="rank:ndcg",
-                random_state=self.seed,
-                n_jobs=4,
-                **params
-            )
-        else:
-
-            model = XGBRanker(
-                objective="rank:ndcg",
+        model = XGBRanker(
+            objective="rank:ndcg",
+            random_state=self.seed,
+            n_jobs=4,
+            **(params or dict(
                 learning_rate=0.05,
                 max_depth=6,
                 n_estimators=800,
                 subsample=0.9,
                 colsample_bytree=0.9,
-                random_state=self.seed,
                 tree_method="hist",
-                n_jobs=4,
-            )
+            ))
+        )
 
         model.fit(Xtr_p, ytr, group=gtr, eval_set=[(Xva_p, yva)], eval_group=[gva], verbose=False)
 
-        # NDCG on test computed per cohort, then averaged
-        meta_te = ds_success_pct.meta[idx_te].reset_index(drop=True)
+        # Scores auf Test
         scores = model.predict(Xte_p)
 
-        ndcgs = []
+        # NDCG@K pro Kohorte
+        ndcg_rows = []
         for cohort, idxs in meta_te.groupby("cohort_ym").groups.items():
-            idxs = np.array(list(idxs))
+            idxs = np.asarray(list(idxs))
+            if idxs.size < self.k_eval:
+                continue  # zu kleine Kohorte -> kein ndcg@10 sinnvoll
+
             y_true = yte[idxs].reshape(1, -1)
             y_score = scores[idxs].reshape(1, -1)
-            if y_true.shape[1] >= 2:
-                ndcgs.append(ndcg_score(y_true, y_score, k=min(self.k_eval, y_true.shape[1])))
-        return model, {"mean_ndcg@k": float(np.mean(ndcgs)) if ndcgs else float("nan"), "k": int(self.k_eval)}
+
+            nd = ndcg_score(y_true, y_score, k=self.k_eval)
+            ndcg_rows.append({
+                "cohort_ym": cohort,
+                "n": int(idxs.size),
+                f"ndcg@{self.k_eval}": float(nd),
+            })
+
+        ndcg_df = pd.DataFrame(ndcg_rows).sort_values("cohort_ym").reset_index(drop=True)
+
+        metrics = {
+            f"mean_ndcg@{self.k_eval}": float(ndcg_df[f"ndcg@{self.k_eval}"].mean()) if not ndcg_df.empty and f"ndcg@{self.k_eval}" in ndcg_df.columns else float("nan"),
+            "k": int(self.k_eval),
+            "n_test": int(len(meta_te)),
+            "n_cohorts_test": int(ndcg_df.shape[0]),
+        }
+
+        # Feature-Namen (falls verfügbar)
+        feat_names = None
+        if hasattr(ct, "get_feature_names_out"):
+            try:
+                feat_names = list(ct.get_feature_names_out())
+            except Exception:
+                feat_names = None
+
+        plot_pack = {
+            "scores": np.asarray(scores),
+            "y_true_rel": np.asarray(yte),
+            "meta_te": meta_te,           # enthält cohort_ym
+            "ndcg_by_cohort": ndcg_df,
+            "feature_names": feat_names
+        }
+        return model, metrics, plot_pack
 
     def tune(self, ds, n_trials: int = 30, device: str = "cpu", k: int = 10):
         """

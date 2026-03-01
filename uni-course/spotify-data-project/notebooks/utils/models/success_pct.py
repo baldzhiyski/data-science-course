@@ -1,5 +1,6 @@
 from __future__ import annotations
 from dataclasses import dataclass
+import numpy as np
 from xgboost import XGBRegressor
 from ..data.splits import cohort_time_split
 from ..evaluation.metrics import regression_metrics
@@ -36,12 +37,11 @@ Hinweise:
 - Kohortenbasierte Zeit-Splits sind wichtig, um Daten-Leakage zu vermeiden.
 - Erfolgperzentile sind oft schief verteilt; geeignete Metriken wählen.
 """
-
 @dataclass
 class SuccessPctTrainer:
     seed: int = 42
 
-    def fit_eval(self, ds,params : dict | None =None):
+    def fit_eval(self, ds, params: dict | None = None):
         idx_tr, idx_va, idx_te = cohort_time_split(ds.meta, "cohort_ym", n_val=3, n_test=6)
 
         Xtr, ytr = ds.X.iloc[idx_tr], ds.y.iloc[idx_tr]
@@ -55,23 +55,19 @@ class SuccessPctTrainer:
         Xva_p = ct.transform(Xva)
         Xte_p = ct.transform(Xte)
 
-        if params:
-            model = XGBRegressor(
-                random_state=self.seed,
-                n_jobs=4,
-                **params
-            )
-        else:
-            model = XGBRegressor(
+        model = XGBRegressor(
+            random_state=self.seed,
+            n_jobs=4,
+            **(params or dict(
                 n_estimators=1200,
                 learning_rate=0.03,
                 max_depth=8,
                 subsample=0.8,
                 colsample_bytree=0.8,
                 tree_method="hist",
-                random_state=self.seed,
-                n_jobs=4,
-            )
+            ))
+        )
+
         model.fit(Xtr_p, ytr, eval_set=[(Xva_p, yva)], verbose=False)
 
         pred_te = model.predict(Xte_p)
@@ -82,7 +78,16 @@ class SuccessPctTrainer:
             "n_test": int(len(yte)),
             "label_range_expected": [0, 100],
         })
-        return model, m
+
+        plot_pack = {
+            "y_true": np.asarray(yte),
+            "y_pred": np.asarray(pred_te),
+            "meta_te": ds.meta.iloc[idx_te].copy(),
+            "feature_names": list(getattr(ct, "get_feature_names_out", lambda: [])()) or None,
+            "ct": ct,
+            "Xte_raw": Xte,          # optional: for cohort plots
+        }
+        return model, m, plot_pack
 
     def tune(self, ds, n_trials: int = 40, device: str = "cpu"):
         """
