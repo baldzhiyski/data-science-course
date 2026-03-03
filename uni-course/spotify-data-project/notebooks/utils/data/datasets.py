@@ -48,6 +48,26 @@ def _sanitize_numeric_df(X: pd.DataFrame) -> pd.DataFrame:
     X = X.select_dtypes(include=["number", "bool"]).copy()
     return X.fillna(0)
 
+def build_popularity_dataset(X_track: pd.DataFrame, track_df: pd.DataFrame, popularity_col: str = "popularity") -> TaskDataset:
+    """
+    Baut ein Dataset für Popularity-Regression.
+    Erwartet:
+    - X_track: Feature-Matrix (Track-Level Features)
+    - track_df: Metadaten inkl. cohort_ym und popularity
+    """
+    if popularity_col not in track_df.columns:
+        raise ValueError(f"track_df missing column '{popularity_col}'")
+
+    base_idx = X_track.index.intersection(track_df.index)
+    y0 = track_df.loc[base_idx, popularity_col]
+
+    mask = y0.notna()
+    X = _sanitize_numeric_df(X_track.loc[base_idx].loc[mask]).reset_index(drop=True)
+    y = y0.loc[mask].astype(float).reset_index(drop=True)
+    meta = track_df.loc[base_idx].loc[mask][["cohort_ym"]].reset_index(drop=True)
+
+    return TaskDataset(X=X, y=y, meta=meta)
+
 
 def build_success_pct_dataset(X_track: pd.DataFrame, track_df: pd.DataFrame, y_success_pct: pd.Series) -> TaskDataset:
     base_idx = X_track.index.intersection(track_df.index).intersection(y_success_pct.index)
