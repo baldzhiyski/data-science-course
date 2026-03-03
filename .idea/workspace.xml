@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="Adjustments">
-      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/utils/models/popularity_regressor.py" afterDir="false" />
+    <list default="true" id="52e9c524-32d1-4e2f-a1d2-b9aa3f2b3a76" name="Changes" comment="Adding a regressor test">
+      <change afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/utils/models/plots/hit_plots.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/05_model_training_and_reports.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/05_model_training_and_reports.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/utils/data/datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/utils/data/datasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/utils/models/hit.py" beforeDir="false" afterPath="$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/utils/models/hit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,15 +197,7 @@
       <workItem from="1769718419984" duration="599000" />
       <workItem from="1770044781747" duration="7001000" />
       <workItem from="1772353598001" duration="12705000" />
-      <workItem from="1772370883273" duration="6132000" />
-    </task>
-    <task id="LOCAL-00117" summary="Initial Commit + Helper Functions">
-      <option name="closed" value="true" />
-      <created>1767111675080</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1767111675080</updated>
+      <workItem from="1772370883273" duration="9215000" />
     </task>
     <task id="LOCAL-00118" summary="Data Creation + Split">
       <option name="closed" value="true" />
@@ -591,14 +583,21 @@
       <option name="project" value="LOCAL" />
       <updated>1772367500923</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Adding a regressor test">
+      <option name="closed" value="true" />
+      <created>1772571759130</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1772571759131</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixes of the tuning" />
     <MESSAGE value="Init the MLOps project 1 and adding first step - data ingestion" />
     <MESSAGE value="Creating a simple pipeline" />
     <MESSAGE value="Implementing data cleaning step" />
@@ -623,7 +622,8 @@
     <MESSAGE value="feat: update training data loader to include additional features and targets" />
     <MESSAGE value="Adding the project overview" />
     <MESSAGE value="Adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjustments" />
+    <MESSAGE value="Adding a regressor test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a regressor test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -692,16 +692,6 @@
           <url>file://$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/01_schema_and_eda.ipynb</url>
           <line>544</line>
           <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/05_model_training_and_reports.ipynb</url>
-          <line>20</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/05_model_training_and_reports.ipynb</url>
-          <line>35</line>
-          <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/uni-course/spotify-data-project/notebooks/utils/data/parsing.py</url>

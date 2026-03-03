@@ -99,7 +99,23 @@ class HitTrainer:
         m = binary_metrics(yte, proba_te, threshold=thr)
         m["best_threshold"] = float(thr)
         m["best_threshold_f1_on_val"] = float(thr_f1)
-        return clf, m, thr
+
+        # Feature names (optional, for importance plot)
+        feat_names = None
+        if hasattr(ct, "get_feature_names_out"):
+            try:
+                feat_names = list(ct.get_feature_names_out())
+            except Exception:
+                feat_names = None
+
+        plot_pack = {
+            "y_test": yte.to_numpy() if hasattr(yte, "to_numpy") else np.asarray(yte),
+            "proba_test": np.asarray(proba_te),
+            "threshold": float(thr),
+            "feature_names": feat_names,
+        }
+
+        return clf, m, plot_pack
 
     def tune(self, ds, n_trials: int = 60, device: str = "cpu"):
         """
